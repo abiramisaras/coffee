@@ -1,0 +1,218 @@
+/* Reset some default styles */
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color:bisque;
+}
+
+/* Style the navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:bisque; /* Change to your desired background color */
+    padding: 10px 20px;
+}
+
+.logo-and-button {
+    display: flex; /* Make logo and button appear in a row */
+    align-items: center; /* Vertically center items */
+}
+
+
+/* Style the logo */
+.navbar-logo img {
+    max-width: 100px; /* Adjust the logo's max-width as needed */
+}
+
+/* Style the navigation items */
+.navbar-items {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-items li {
+    margin-right: 10px;
+}
+
+.navbar-items a {
+    text-decoration: none;
+    color: rgb(81, 75, 75); /* Change to your desired text color */
+    font-weight: lighter;
+}
+
+/* Style the buttons */
+.navbar-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-sign-in {
+    margin-right: 10px;
+    background-color: bisque;
+    color: rgb(81, 75, 75); /* Change to your desired button text color */
+
+}
+
+.btn-join-wishlist{
+    background-color:#007BFF;
+    color:white;
+}
+.btn-hostter-hiring {
+    background: linear-gradient(45deg, orange, red);
+    border: none;
+    border-radius: 50px; /* This makes the button oval-shaped */
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px; /* Adjust the margin as needed */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the left part */
+.left-part {
+    flex: 5; /* Takes up 60% of the container */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Style the big font section */
+.container .left-part .big-font {
+    font-size: 24px;
+    margin-bottom:2px ; /* Adjust the font size as needed */
+}
+
+/* Style the small font section */
+.container .left-part.small-font p {
+    font-size: 14px; /* Adjust the font size as needed */
+    color: #888;
+    margin-top: 0;/* Adjust the color as needed */
+}
+
+/* ... (previous CSS code) ... */
+
+/* Style the email input and button container */
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.email-input input {
+    flex: 1; /* Takes up available space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.join-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px; /* Adjust the margin as needed */
+}
+
+/* ... (rest of the CSS remains the same) ... */
+
+
+/* Style the tick icon and text */
+.tick-icon {
+    display: flex;
+    align-items: center;
+}
+
+.tick-icon svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+/* Style for the footer */
+/* Style for the footer */
+.footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* Style for the social media buttons */
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.social-button {
+    border: none;
+    background: none;
+    color: rgb(81, 75, 75);
+    font-size: 16px;
+    margin-right: 20px; /* Adjust the margin as needed */
+    cursor: pointer;
+}
+
+/* Remove button outline on focus (optional) */
+.social-button:focus {
+    outline: none;
+}
+
+.profile-picture img.round-image {
+    width: 50px; /* Adjust the size of the round image */
+    height: 50px;
+    border-radius: 50%; /* Create a round format for the image */
+}
+
+.image-and-text {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically align items */
+}
+
+.image-and-text img {
+    margin-right: 10px; /* Add spacing between the image and text */
+}
+span{
+    font-weight: bolder;
+    font-size: larger;
+}
+.bold{
+    font-size: larger;
+}
+/* Style the right part */
+
+
+/* Style for the SVG container */
+/* Style for the SVG container */
+/* Style for the SVG container */
+
+
+/* Style for the image (if needed) */
+
+
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-buttons {
+        margin-top: 10px;
+    }
+}
